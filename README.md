@@ -8,6 +8,7 @@ Objetivo do Projeto
 Construir um sistema que, dado um produto (imagem), recomende outros produtos visualmente similares, sem usar dados textuais — apenas a aparência física (cor, formato, textura, etc.).
 
 🧰 Ferramentas e Tecnologias
+
 🧠 Deep Learning:
 
 TensorFlow ou PyTorch – para redes neurais (usaremos modelos pré-treinados).
