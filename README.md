@@ -17,6 +17,14 @@ Gerar recomendações de produtos que sejam visualmente semelhantes ao produto c
 Criar uma aplicação escalável para suportar grandes volumes de dados visuais.
 
 
+## 🖼️ Exemplo de Resultado
+
+Abaixo está um exemplo da recomendação visual gerada pelo sistema:
+
+![Resultado do sistema](resultados_1.PNG)
+
+
+
 Ferramentas e Tecnologias Utilizadas:
 
 Linguagem: Python
@@ -74,4 +82,5 @@ Baixe e organize o dataset.
 Execute o script para extrair embeddings das imagens.
 
 Utilize o sistema de recomendação para encontrar produtos similares.
+
 
