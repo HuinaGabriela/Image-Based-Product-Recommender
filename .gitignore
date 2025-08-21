@@ -1,0 +1,19 @@
+# Ignorar dados
+data/
+embeddings/
+
+# Ignorar arquivos temporários / sistema
+*.pyc
+__pycache__/
+.DS_Store
+
+# Ignorar ambientes virtuais
+venv/
+.env/
+
+# Ignorar arquivos pessoais ou testes
+*.ipynb
+*.log
+
+# Ignorar arquivos de sistema do VSCode
+.vscode/
