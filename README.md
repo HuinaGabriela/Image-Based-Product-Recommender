@@ -1,53 +1,86 @@
 # Image-Based-Product-Recommender
 
-sistema de recomendação baseado em similaridade de imagens, aplicação real de visão computacional
-com aprendizado profundo (Deep Learning).
+Descrição do Projeto:
 
-Objetivo do Projeto
+Este projeto implementa um sistema de recomendação baseado em similaridade visual de imagens de produtos. A ideia é que, dado um produto em forma de imagem, o sistema recomende outros produtos similares considerando apenas características visuais — como cor, formato e textura — sem usar dados textuais como marca, preço ou modelo.
 
-Construir um sistema que, dado um produto (imagem), recomende outros produtos visualmente similares, sem usar dados textuais — apenas a aparência física (cor, formato, textura, etc.).
+Trata-se de uma aplicação prática de visão computacional com técnicas de aprendizado profundo (Deep Learning), focada em extrair e comparar embeddings de imagens para gerar recomendações visuais precisas.
 
-🧰 Ferramentas e Tecnologias
+Objetivo:
 
-tensorflow
-numpy
-pandas
-scikit-learn
-tqdm
-matplotlib
-Pillow
+Construir um modelo capaz de extrair recursos visuais relevantes das imagens usando uma rede neural pré-treinada (ResNet50).
 
+Implementar um sistema de busca por similaridade usando esses recursos.
 
-🧠 Deep Learning:
+Gerar recomendações de produtos que sejam visualmente semelhantes ao produto consultado.
 
-TensorFlow ou PyTorch – para redes neurais (usaremos modelos pré-treinados).
-
-Keras (se for com TensorFlow) – API de alto nível para facilitar.
-
----
-Remover:
-criar conta no https://www.kaggle.com
-criar um novo tokem API - Um arquivo chamado kaggle.json será automaticamente baixado, é sua chave de acesso pessoal para usar a API do Kaggle.
-
-📌 Importante:
+Criar uma aplicação escalável para suportar grandes volumes de dados visuais.
 
 
-⚠️ Para utilizar este notebook, você precisa gerar sua própria chave da API do Kaggle (kaggle.json) em: https://www.kaggle.com/account
+## 🖼️ Exemplo de Resultado
 
----
+Abaixo está um exemplo da recomendação visual gerada pelo sistema:
 
-📷 Visão Computacional:
+![Resultado do sistema](resultados_1.PNG)
 
-OpenCV – manipulação de imagens.
 
-Matplotlib – visualização de imagens.
 
-📦 Modelos Pré-treinados:
+Ferramentas e Tecnologias Utilizadas:
 
-ResNet50– para extração de embeddings.
+Linguagem: Python
 
-📚 Indexação / Similaridade:
+Bibliotecas de Deep Learning: TensorFlow, Keras
 
-Scikit-learn – para k-NN simples.
+Manipulação e visualização de dados: NumPy, Pandas, Matplotlib, Pillow (PIL), tqdm
 
-FAISS (Facebook AI Similarity Search) – para grandes volumes, rápido e eficiente.
+Visão Computacional: OpenCV
+
+Modelos pré-treinados: ResNet50 (para extração de embeddings)
+
+Indexação e Similaridade:
+
+scikit-learn (k-Nearest Neighbors)
+
+FAISS (Facebook AI Similarity Search) para buscas rápidas em grandes volumes
+
+Gerenciamento de dados: Kaggle API (para baixar datasets)
+
+Instruções importantes:
+
+Para baixar os datasets do Kaggle, é necessário criar uma conta no Kaggle
+, gerar sua chave da API (arquivo kaggle.json) e configurá-la localmente para autenticação.
+
+O arquivo kaggle.json deve ser mantido seguro e não enviado ao repositório público.
+
+Resultados Esperados
+
+Sistema capaz de recomendar produtos visualmente semelhantes a partir de uma imagem de entrada.
+
+Visualização dos produtos recomendados com alta similaridade visual.
+
+Facilidade de expansão do sistema para mais categorias e maior quantidade de dados.
+
+
+Aprendizados Adquiridos:
+
+Compreensão prática de técnicas de extração de características visuais usando redes neurais pré-treinadas.
+
+Familiaridade com o processamento e pré-processamento de imagens para visão computacional.
+
+Implementação e uso de algoritmos eficientes de busca por similaridade em espaços vetoriais (k-NN e FAISS).
+
+Integração de diferentes bibliotecas para criar um pipeline completo de recomendação visual.
+
+Conhecimento sobre boas práticas para gerenciar datasets externos e APIs, como a do Kaggle.
+
+Como usar:
+
+Configure sua chave do Kaggle (kaggle.json).
+
+Baixe e organize o dataset.
+
+Execute o script para extrair embeddings das imagens.
+
+Utilize o sistema de recomendação para encontrar produtos similares.
+
+
