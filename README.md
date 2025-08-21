@@ -9,6 +9,7 @@ Construir um sistema que, dado um produto (imagem), recomende outros produtos vi
 
 🧰 Ferramentas e Tecnologias
 
+
 🧠 Deep Learning:
 
 TensorFlow ou PyTorch – para redes neurais (usaremos modelos pré-treinados).
@@ -21,14 +22,9 @@ criar conta no https://www.kaggle.com
 criar um novo tokem API - Um arquivo chamado kaggle.json será automaticamente baixado, é sua chave de acesso pessoal para usar a API do Kaggle.
 
 📌 Importante:
+
+
 ⚠️ Para utilizar este notebook, você precisa gerar sua própria chave da API do Kaggle (kaggle.json) em: https://www.kaggle.com/account
-
-
-Este projeto está dividido em dois notebooks:
-
-1_Dataset_Preprocessamento.ipynb: Baixa o dataset do Kaggle, filtra as imagens e organiza em pastas por categoria.
-
-2_Sistema_Recomendacao.ipynb: Carrega as imagens já organizadas, extrai embeddings e realiza recomendações com base na similaridade visual.
 
 ---
 
