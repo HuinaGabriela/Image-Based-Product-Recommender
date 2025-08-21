@@ -9,6 +9,14 @@ Construir um sistema que, dado um produto (imagem), recomende outros produtos vi
 
 🧰 Ferramentas e Tecnologias
 
+tensorflow
+numpy
+pandas
+scikit-learn
+tqdm
+matplotlib
+Pillow
+
 
 🧠 Deep Learning:
 
