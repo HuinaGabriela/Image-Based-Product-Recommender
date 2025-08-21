@@ -1,12 +1,12 @@
-# Image-Based-Product-Recommender
+# 🤖Image-Based-Product-Recommender
 
-Descrição do Projeto:
+## 📌Descrição do Projeto:
 
 Este projeto implementa um sistema de recomendação baseado em similaridade visual de imagens de produtos. A ideia é que, dado um produto em forma de imagem, o sistema recomende outros produtos similares considerando apenas características visuais — como cor, formato e textura — sem usar dados textuais como marca, preço ou modelo.
 
 Trata-se de uma aplicação prática de visão computacional com técnicas de aprendizado profundo (Deep Learning), focada em extrair e comparar embeddings de imagens para gerar recomendações visuais precisas.
 
-Objetivo:
+## 🎯Objetivo:
 
 Construir um modelo capaz de extrair recursos visuais relevantes das imagens usando uma rede neural pré-treinada (ResNet50).
 
@@ -17,15 +17,7 @@ Gerar recomendações de produtos que sejam visualmente semelhantes ao produto c
 Criar uma aplicação escalável para suportar grandes volumes de dados visuais.
 
 
-## 🖼️ Exemplo de Resultado
-
-Abaixo está um exemplo da recomendação visual gerada pelo sistema:
-
-![Resultado do sistema](resultados_1.PNG)
-
-
-
-Ferramentas e Tecnologias Utilizadas:
+## 🛠️Ferramentas e Tecnologias Utilizadas:
 
 Linguagem: Python
 
@@ -45,14 +37,14 @@ FAISS (Facebook AI Similarity Search) para buscas rápidas em grandes volumes
 
 Gerenciamento de dados: Kaggle API (para baixar datasets)
 
-Instruções importantes:
+## ⚠️Instruções importantes:
 
 Para baixar os datasets do Kaggle, é necessário criar uma conta no Kaggle
 , gerar sua chave da API (arquivo kaggle.json) e configurá-la localmente para autenticação.
 
 O arquivo kaggle.json deve ser mantido seguro e não enviado ao repositório público.
 
-Resultados Esperados
+## 📈Resultados Esperados
 
 Sistema capaz de recomendar produtos visualmente semelhantes a partir de uma imagem de entrada.
 
@@ -61,7 +53,15 @@ Visualização dos produtos recomendados com alta similaridade visual.
 Facilidade de expansão do sistema para mais categorias e maior quantidade de dados.
 
 
-Aprendizados Adquiridos:
+## 🖼️ Exemplo de Resultado
+
+Abaixo está um exemplo da recomendação visual gerada pelo sistema:
+
+![Resultado do sistema](resultados_1.PNG)
+
+
+
+## 📚Aprendizados Adquiridos:
 
 Compreensão prática de técnicas de extração de características visuais usando redes neurais pré-treinadas.
 
@@ -73,7 +73,7 @@ Integração de diferentes bibliotecas para criar um pipeline completo de recome
 
 Conhecimento sobre boas práticas para gerenciar datasets externos e APIs, como a do Kaggle.
 
-Como usar:
+## 🚀Como usar:
 
 Configure sua chave do Kaggle (kaggle.json).
 
